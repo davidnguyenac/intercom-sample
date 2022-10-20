@@ -9,17 +9,18 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     // "noEmit": true,
     "jsx": "react",
-    "outDir": "dist",
     "rootDir": "./src",
     "declaration": true,
     "declarationDir": "types",
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "sourceMap": true,
+    "outDir": "dist"
   },
   "include": ["src"],
   "exclude": ["node_modules", "build", "dist", "example", "rollup.config.js"]
