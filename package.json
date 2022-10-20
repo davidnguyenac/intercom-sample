@@ -1,5 +1,8 @@
 {
-  "name": "react-component-lib",
+  "name": "@davidnguyenac/intercom-sample",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/davidnguyenac"
+  },
   "description": "a simple test for react component",
   "version": "0.1.0",
   "private": true,
